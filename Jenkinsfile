@@ -1,10 +1,15 @@
 pipeline {
     agent any
 
-    stage ('Compile Stage') {
+    stages {
+        stage ('Compile Stage') {
 
-                  bat 'mvn clean compile'
-                
-				}
-	}
-	
+            steps {
+                withMaven(maven : 'maven_3_5_4') {
+                     bat 'mvn clean compile'
+                }
+            }
+        }
+
+    }
+}
