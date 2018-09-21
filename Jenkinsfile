@@ -2,6 +2,16 @@ pipeline {
     agent any
 
     stages {
+		stage ('Build trigger') {
+			
+			steps {
+			
+					 bat 'Hello, new changes are added'
+
+				}
+
+		}
+		
         stage ('Compile Stage') {
 
             steps {
