@@ -6,7 +6,7 @@ pipeline {
 			
 			steps {
 			
-					 bat 'Hello, new changes are added'
+					 echo "Hello, new changes are added"
 
 				}
 
