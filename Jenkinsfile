@@ -6,7 +6,7 @@ pipeline {
 			
 			steps {
 			
-					 echo "Hello, new changes are added"
+					 echo "Hello, new changes are added new changes"
 
 				}
 
