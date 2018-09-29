@@ -7,6 +7,7 @@ pipeline {
 			steps {
 			
 					 echo "Hello, new changes are added new changes"
+					 echo "Project name Lakshmi Rebbavarapu"
 
 				}
 

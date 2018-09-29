@@ -6,7 +6,7 @@
 
     <groupId>com.techprimers.testing</groupId>
     <artifactId>jenkins1</artifactId>
-    <version>2.0-SNAPSHOT</version>
+    <version>3.0-SNAPSHOT</version>
 
 
     <properties>
@@ -65,7 +65,7 @@
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/WB4ehAEm6g6BKx3KdxNY/</url>
+            <url>https://mymavenrepo.com/repo/IAhl2w2C8lgJH7u6hngz/</url>
         </repository>
     </distributionManagement>
 
